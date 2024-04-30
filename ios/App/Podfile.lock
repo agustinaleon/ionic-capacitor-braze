@@ -1,0 +1,69 @@
+PODS:
+  - BrazeKit (7.7.0)
+  - BrazeLocation (7.7.0):
+    - BrazeKit (= 7.7.0)
+  - BrazeUI (7.7.0):
+    - BrazeKit (= 7.7.0)
+  - Capacitor (6.0.0):
+    - CapacitorCordova
+  - CapacitorApp (6.0.0):
+    - Capacitor
+  - CapacitorCordova (6.0.0)
+  - CapacitorHaptics (6.0.0):
+    - Capacitor
+  - CapacitorKeyboard (6.0.0):
+    - Capacitor
+  - CapacitorStatusBar (6.0.0):
+    - Capacitor
+  - CordovaPluginsStatic (6.0.0):
+    - BrazeKit (~> 7.7.0)
+    - BrazeLocation (~> 7.7.0)
+    - BrazeUI (~> 7.7.0)
+    - CapacitorCordova
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+
+SPEC REPOS:
+  trunk:
+    - BrazeKit
+    - BrazeLocation
+    - BrazeUI
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  BrazeKit: ee31d3b5113646cbd6ad44eafc93b14c3c3c504c
+  BrazeLocation: b8261e356f7d193ae9f768bd1ec83b220c17c227
+  BrazeUI: 55cbc8362c87abd74c57c3fa5b133f1cc164175f
+  Capacitor: 559d073c4ca6c27f8e7002c807eea94c3ba435a9
+  CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
+  CapacitorCordova: 8c4bfdf69368512e85b1d8b724dd7546abeb30af
+  CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
+  CapacitorKeyboard: deacbd09d8d1029c3681197fb05d206b721d5f73
+  CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
+  CordovaPluginsStatic: 27a9396723b681c0d4b3bcfb67a9b4dd44288c75
+
+PODFILE CHECKSUM: a8851ce127a9a3e848283c353d14e54ffb9ccebb
+
+COCOAPODS: 1.14.3
